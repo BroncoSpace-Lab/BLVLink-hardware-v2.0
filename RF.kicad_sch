@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "RF Module")
-		(date "2025-10-15")
-		(rev "A")
+		(date "2026-02-27")
+		(rev "1.0.1")
 		(company "Bronco STAR - BLV")
 		(comment 1 "Rev. A - Replaced with E22-400M33S and associated components")
 	)
@@ -936,10 +936,6 @@
 		(uuid "76b93f01-16cb-40d4-930f-9b6577d3a2e1")
 	)
 	(no_connect
-		(at 113.03 91.44)
-		(uuid "9fcddf3a-3fd9-42fa-89ae-97dc6ff522da")
-	)
-	(no_connect
 		(at 135.89 93.98)
 		(uuid "c2dd668d-5a22-4ec2-ad62-89817060d383")
 	)
@@ -1002,6 +998,16 @@
 			(type default)
 		)
 		(uuid "37e254f9-0e90-4d96-a916-5b9a644e557b")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38339bd0-3150-4263-9b46-be6624699cb7")
 	)
 	(wire
 		(pts
@@ -1325,6 +1331,17 @@
 			(justify right)
 		)
 		(uuid "605bd6cd-1a6e-4b66-baab-0259ef2a5700")
+	)
+	(hierarchical_label "IRQ"
+		(shape input)
+		(at 102.87 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65439e1d-0345-415a-abf8-57275f54dada")
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)

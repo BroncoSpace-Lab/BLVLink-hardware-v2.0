@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "Microcontroller RP2350A")
-		(date "2025-07-01")
-		(rev "A")
+		(date "2026-02-27")
+		(rev "1.0.1")
 		(company "Bronco STAR - BLV")
 	)
 	(lib_symbols
@@ -3033,6 +3033,26 @@
 		)
 		(uuid "1030ba48-30df-4547-84e0-da25fc7d7c71")
 	)
+	(text "PROBABLY NEED TO BREAKOUT MORE PINS JUST IN CASE\n"
+		(exclude_from_sim no)
+		(at 283.21 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c8e9d07-9690-4a61-a4b7-6772defa1c72")
+	)
+	(text "Need to add IRQ into a gpio pin"
+		(exclude_from_sim no)
+		(at 268.478 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31a8943a-acbc-463e-9e2d-c343d0f1d35b")
+	)
 	(text "1V1 Integrated VReg @ max 200mA\n\n"
 		(exclude_from_sim no)
 		(at 153.67 87.63 0)
@@ -3413,10 +3433,6 @@
 		(uuid "fe5fae4b-a95f-40bd-b684-a23506ad004c")
 	)
 	(no_connect
-		(at 243.84 177.8)
-		(uuid "0eeb06eb-5116-4b5a-9c36-c668a28c55fc")
-	)
-	(no_connect
 		(at 243.84 134.62)
 		(uuid "214ea05a-ed37-471e-86b0-d5c8fc54eac9")
 	)
@@ -3614,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 172.72) (xy 247.65 172.72)
+			(xy 243.84 172.72) (xy 264.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3634,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 170.18) (xy 247.65 170.18)
+			(xy 243.84 170.18) (xy 264.16 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4824,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 177.8) (xy 264.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55be276-fa0f-44d8-a881-432afee58822")
+	)
+	(wire
+		(pts
 			(xy 180.34 143.51) (xy 176.53 143.51)
 		)
 		(stroke
@@ -5424,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 175.26) (xy 247.65 175.26)
+			(xy 243.84 175.26) (xy 264.16 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7512,7 +7538,7 @@
 	)
 	(hierarchical_label "RF_TXEN"
 		(shape input)
-		(at 247.65 175.26 0)
+		(at 264.16 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7589,7 +7615,7 @@
 	)
 	(hierarchical_label "RF_RXEN"
 		(shape input)
-		(at 247.65 172.72 0)
+		(at 264.16 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7633,7 +7659,7 @@
 	)
 	(hierarchical_label "RF_RST"
 		(shape output)
-		(at 247.65 170.18 0)
+		(at 264.16 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,6 +7678,17 @@
 			(justify left)
 		)
 		(uuid "cc722dcc-258e-4949-bdfd-be1b0aa2ceec")
+	)
+	(hierarchical_label "RF_IRQ"
+		(shape output)
+		(at 264.16 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d385c319-3403-4e41-9e11-f3dd592f8b37")
 	)
 	(hierarchical_label "CUBE_UART0_TX"
 		(shape output)
