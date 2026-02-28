@@ -1,3 +1,9 @@
 v1.0.1
-- Add IRQ Pin to RF
-- 
+2/27
+RF -> MCU:
+- Add IRQ Pin
+- Switch RX from 34 to 35
+- Switch TX from 35 to 36
+- Switch IRQ to 34
+Other:
+- Update some Basic JLC BOM
