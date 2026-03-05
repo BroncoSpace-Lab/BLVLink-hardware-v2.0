@@ -7,11 +7,118 @@
 	(title_block
 		(title "RF Module")
 		(date "2026-02-27")
-		(rev "1.0.1")
+		(rev "v1.0.2")
 		(company "Bronco STAR - BLV")
 		(comment 1 "Rev. A - Replaced with E22-400M33S and associated components")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:E32-400M30S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -931,14 +1038,6 @@
 		(at 113.03 109.22)
 		(uuid "40169dd9-157e-4b63-985f-b7f83af7e069")
 	)
-	(no_connect
-		(at 113.03 88.9)
-		(uuid "76b93f01-16cb-40d4-930f-9b6577d3a2e1")
-	)
-	(no_connect
-		(at 135.89 93.98)
-		(uuid "c2dd668d-5a22-4ec2-ad62-89817060d383")
-	)
 	(wire
 		(pts
 			(xy 138.43 109.22) (xy 135.89 109.22)
@@ -1091,6 +1190,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 50.8) (xy 66.04 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690c8400-71f6-4f8a-a859-2a030e98045e")
+	)
+	(wire
+		(pts
 			(xy 110.49 106.68) (xy 113.03 106.68)
 		)
 		(stroke
@@ -1231,6 +1340,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 63.5) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b549b069-68c1-41da-b1e6-d6644d396a32")
+	)
+	(wire
+		(pts
 			(xy 144.78 91.44) (xy 144.78 88.9)
 		)
 		(stroke
@@ -1298,6 +1417,46 @@
 			(type default)
 		)
 		(uuid "f0a99d25-354e-4c03-ac7f-822d27cda3ab")
+	)
+	(label "DIO1"
+		(at 66.04 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31a64f1a-1de7-4a02-84f9-16fbbcf8db01")
+	)
+	(label "DI02"
+		(at 135.89 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0082ae4-bf7b-4001-b64f-3ed1bcd3975c")
+	)
+	(label "DIO1"
+		(at 113.03 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb4569b8-ff97-417a-b71c-abc2a38887f8")
+	)
+	(label "DI02"
+		(at 66.04 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e520287e-89cb-4003-a24d-e8c60e21087c")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
@@ -1396,7 +1555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13753306-292b-462b-b7e1-2d13a2df071f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR066"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -1446,7 +1605,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR050")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd7a55d-e662-4d14-9a3f-3bdf0ff72346")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR067"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1511,7 +1670,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR041")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1526,7 +1685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f99e15e-66ed-4868-b1c2-568a0bbd8f0b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR069"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -1576,7 +1735,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR049")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1592,7 +1751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d308c5-e5fd-43bf-a3f1-2af0b650fca2")
-		(property "Reference" "U5"
+		(property "Reference" "U51"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -1812,7 +1971,7 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "U5")
+					(reference "U51")
 					(unit 1)
 				)
 			)
@@ -1828,7 +1987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1abfea7-19ab-4dac-9b06-0b064b1d5631")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR065"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -1878,7 +2037,139 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR047")
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea2362d8-1d1a-40a8-881f-271b68286651")
+		(property "Reference" "TP51"
+			(at 60.96 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce78149a-be67-4cd8-a728-867c812617c5")
+		)
+		(instances
+			(project "BLV_PCB"
+				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
+					(reference "TP51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0fae8f8-d623-41e5-8f33-017712214b0a")
+		(property "Reference" "TP52"
+			(at 60.96 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83a48503-5800-40b9-8b54-6126e0f1f0de")
+		)
+		(instances
+			(project "BLV_PCB"
+				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -1893,7 +2184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5ac89de-09fd-4521-b054-893d0974927a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR068"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -1943,7 +2234,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR048")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

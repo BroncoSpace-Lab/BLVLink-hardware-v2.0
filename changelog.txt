@@ -1,9 +1,25 @@
-v1.0.1
-2/27
-RF -> MCU:
-- Add IRQ Pin
-- Switch RX from 34 to 35
-- Switch TX from 35 to 36
-- Switch IRQ to 34
+v1.0.1-v1.0.2
+Sh.2 - MCU:
+-Remove 3V3 hard pull up on RUN
+-Change LED resistor brightness
+-RF related below:
+	- Add IRQ Pin
+	- Switch RX from 34 to 35
+	- Switch TX from 35 to 36
+	- Switch IRQ to 34
+
+Sh. 5 - RF:
+-Add IRQ
+
+
+
 Other:
 - Update some Basic JLC BOM
+
+
+To do:
+- Add ESD on UARTs
+- Break out SPI / I2C bus
+
+v1.0.2 - Post-Manufacture fix
+- 

@@ -5,12 +5,11 @@
 	(uuid "a1ee72f4-0ba0-411e-bd5f-98c179e44c70")
 	(paper "USLedger")
 	(title_block
-		(title "+5V, +3V3, LiPo Battery, Charger")
-		(date "2025-11-11")
-		(rev "C")
+		(title "+3V3, LiPo Battery")
+		(date "2026-03-05")
+		(rev "v1.0.2")
 		(company "Bronco STAR - BLV")
-		(comment 1 "Rev B - Add TP4056 Charger, Line Switcher, +5V SMPS")
-		(comment 2 "Rev C - Remove LiPo Charger due to not recommended IC. Implement PMOS Ideal Diode.")
+		(comment 1 "PMOS Ideal Diode Source Switching")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -6236,7 +6235,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 293.37 99.06 90)
 			(effects
 				(font
