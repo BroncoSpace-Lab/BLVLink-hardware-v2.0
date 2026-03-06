@@ -2379,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Value" "duPont"
+		(property "Value" "PinHeader_01x03_Pin"
 			(at 77.47 156.972 0)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Value" "duPont"
+		(property "Value" "PinHeader_01x03_Pin"
 			(at 78.74 93.472 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Value" "duPont"
+		(property "Value" "PinHeader_01x03_Pin"
 			(at 78.74 118.872 0)
 			(effects
 				(font

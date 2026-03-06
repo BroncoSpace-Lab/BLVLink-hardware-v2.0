@@ -10635,7 +10635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "duPont"
+		(property "Value" "PinHeader_01x03_Pin"
 			(at 149.86 182.8799 0)
 			(effects
 				(font
@@ -11553,7 +11553,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KMR2"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -13529,7 +13529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KMR2"
 			(at 146.05 137.1599 90)
 			(effects
 				(font
