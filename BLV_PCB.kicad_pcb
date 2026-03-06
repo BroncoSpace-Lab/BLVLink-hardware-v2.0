@@ -2251,6 +2251,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "861fd06a-070c-4f0c-a271-6fe5ba790867")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/a757fb88-c506-4dda-8ecb-258198b26b95")
 		(sheetname "/MCU/")
@@ -2563,6 +2575,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74f45d48-326f-40c5-a2bc-67b4b1b10343")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4611,6 +4635,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57bf07b4-03e7-40a8-815a-709f70c955ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46a6982e-2365-4ced-a85e-7b398d700d33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,6 +8524,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C96446"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c1006fa-65e0-4dfe-abf5-b3dc783cb0be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ac26712-adbd-4e92-84f1-3c660d93b184/2d5e5b52-8088-4a5e-9000-2d6bb10e78cf")
 		(sheetname "/Power/")
@@ -9133,6 +9181,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f167c0fb-ec11-4041-9d0f-002b8ee8a7e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e5b94b9f-016b-443f-970f-ae0598cc0fac/081412e5-1ca7-4c93-85a4-a7e07cd5d6ad")
 		(sheetname "/GNSS & MicroSD/")
@@ -9459,6 +9519,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6291672-372c-4ef6-ad35-212ffc345079")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11345,6 +11417,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "942d97fc-7edd-4825-b875-39eb4475b901")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/ea134e73-d2bc-430b-a367-687a03b329fc")
 		(sheetname "/MCU/")
@@ -11657,6 +11741,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c185ae9-d9f1-400d-b8ae-cf0ad1491e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12894,6 +12990,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C413051"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "54412f1b-f47e-416b-8d0c-d2eb3cfde767")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15965,6 +16073,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6708bfe4-2272-4671-a549-18b79be68a94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/6f05f1da-2343-4cb6-909e-3a7278adb321")
 		(sheetname "/MCU/")
@@ -16172,6 +16292,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19077496"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1b1a56ca-1dbd-4a4d-95d7-c5d583dce27d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -16509,6 +16641,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4afde13b-3802-4a12-b197-ff52c78f0bca")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -19236,6 +19380,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C96446"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "19f3c96f-2bd4-435a-bae2-c9b1827d43cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ac26712-adbd-4e92-84f1-3c660d93b184/8120ac8d-9409-4e24-9c5c-bbf220ca6b4c")
 		(sheetname "/Power/")
@@ -19562,6 +19718,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2601e54-d684-4680-8978-62558f6b1473")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -20711,6 +20879,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C413051"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd949c9a-9963-4694-a25e-af94830c2f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e5b94b9f-016b-443f-970f-ae0598cc0fac/da599adf-2567-4e54-956e-e5d16c2ed144")
 		(sheetname "/GNSS & MicroSD/")
@@ -21027,6 +21207,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30d3fc81-30f1-40b6-8ad7-1f24e29ce05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e5b94b9f-016b-443f-970f-ae0598cc0fac/6e936266-1c12-4c07-832a-3f97a9fdd425")
 		(sheetname "/GNSS & MicroSD/")
@@ -21219,6 +21411,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6bbec28-53f9-4678-8e87-87309afa3498")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f02bfb5-4ddd-45c9-876c-0733318f9e18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23526,6 +23730,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C19077496"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3b0c29a-8123-4294-b95e-48f720090bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/99a2f443-98a4-499e-bc66-a04b57232863")
 		(sheetname "/")
@@ -24865,6 +25081,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C19666"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fca0afc9-944a-4321-a270-5b60f80f1143")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/d3e35897-c1d8-452c-9b94-4a1a890b0e7a")
 		(sheetname "/MCU/")
@@ -25570,7 +25798,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C64"
-			(at 0.8 2 90)
+			(at 0.8 3.4 180)
 			(layer "F.SilkS")
 			(uuid "5e9d779e-763a-43eb-a1d8-3129d2636ba5")
 			(effects
@@ -25940,6 +26168,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2e6e6aa0-24cc-41e1-ad86-2b7935a7eade")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -26799,6 +27039,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4bcadfb6-e228-4d22-8f4c-21bd597f8111")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e5b94b9f-016b-443f-970f-ae0598cc0fac/71af1dda-c669-4197-ab09-c5f86a9cdf11")
 		(sheetname "/GNSS & MicroSD/")
@@ -27510,7 +27762,7 @@
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L61"
-			(at 2.3 0.1 90)
+			(at 2.5 0.7 90)
 			(layer "F.SilkS")
 			(uuid "20b978cf-9733-475a-8fd0-2f555193e829")
 			(effects
@@ -27555,7 +27807,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C162607"
+		(property "LCSC Part" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27862,6 +28114,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1fd32e1c-36a3-4121-9f7b-399ad0dbe5bf")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -28403,6 +28667,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89d529f6-dd48-43fc-8ca9-b340c3e4b7c4")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -30283,6 +30559,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e5f62c3d-2a24-430c-a44c-57c4e8c0704a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/106ef40b-6c36-4e15-b404-c13791bffcb6")
 		(sheetname "/MCU/")
@@ -30924,6 +31212,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26d6892d-99e5-4902-9edd-c93edbf71cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -31591,6 +31891,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c720a5aa-0d36-43be-b0ba-8fce219b7ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -32568,6 +32880,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C413051"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c93cb518-aa3b-4c91-912f-c1bc0739898b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6e201a35-d390-4e65-a234-b842b3106670/93bb241f-df17-47c7-ae02-47b284a04a19")
 		(sheetname "/MCU/")
@@ -32893,6 +33217,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2296"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4626eafe-629d-42d3-af47-1d78d14ad89f")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -34908,6 +35244,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C413051"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9e58ec97-cffc-46bf-83e0-414f8376dc71")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e5b94b9f-016b-443f-970f-ae0598cc0fac/4820fa70-60d3-4d49-aefb-7712a4f7e632")
 		(sheetname "/GNSS & MicroSD/")
@@ -35233,6 +35581,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a07ed856-ba80-48cd-a369-ae378563a28d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -36688,6 +37048,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca5a01a2-3627-443c-b596-30fab4c4e719")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -39870,6 +40242,15 @@
 		(uuid "32bd6cb8-8f5c-4da3-a4c7-0f1832c3a633")
 	)
 	(via
+		(at 167.7 112.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "332c504b-21d5-4837-a40b-d5826a79cc17")
+	)
+	(via
 		(at 217 71)
 		(size 0.6)
 		(drill 0.3)
@@ -40576,6 +40957,15 @@
 		(uuid "736817b7-c744-438c-980e-1673b2af6c0d")
 	)
 	(via
+		(at 163.3 111.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "74e9184c-49ca-4be0-b85d-48fc25020332")
+	)
+	(via
 		(at 201 123.25)
 		(size 0.6)
 		(drill 0.3)
@@ -40627,6 +41017,15 @@
 		(free yes)
 		(net 20)
 		(uuid "792c653d-376b-4944-a93f-164df5116916")
+	)
+	(via
+		(at 166.5 111.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "79d8f8a6-1fca-4513-9880-26977b4534ad")
 	)
 	(via
 		(at 140.2 60.6)
@@ -40726,6 +41125,15 @@
 		(free yes)
 		(net 20)
 		(uuid "869e10ff-a8d5-47c9-accf-57ba84745199")
+	)
+	(via
+		(at 167.7 111.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "86c65f4f-54bf-47d2-a1f9-0215bd5cc0b8")
 	)
 	(via
 		(at 196 111)
@@ -40842,6 +41250,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 20)
 		(uuid "92ca886e-e66e-46bf-af05-d4e8c8dc9aa5")
+	)
+	(via
+		(at 166.5 112.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "9399e8c6-8c39-4674-912d-e57976c469f9")
 	)
 	(via
 		(at 151.2 115.2)
@@ -41814,6 +42231,15 @@
 		(free yes)
 		(net 20)
 		(uuid "daa132b5-074d-4a29-a4fc-74f5b6bf9a5f")
+	)
+	(via
+		(at 163.3 112)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 20)
+		(uuid "dae10b15-a614-4cba-b061-cda0705efc72")
 	)
 	(via
 		(at 183 70.75)

@@ -687,6 +687,12 @@
           "label": "Description_1",
           "name": "Description_1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS Part",
+          "name": "LSCS Part",
+          "show": false
         }
       ],
       "filter_string": "",
