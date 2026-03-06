@@ -3046,8 +3046,8 @@
 		(uuid c35a96f8-2967-4081-ae11-9387b75b092b)
 	)
 	(rectangle
-		(start 303.022 109.22)
-		(end 350.012 151.13)
+		(start 312.42 110.49)
+		(end 370.332 152.4)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3059,7 +3059,7 @@
 	)
 	(text "UART TX Indicator LEDs"
 		(exclude_from_sim no)
-		(at 322.58 113.03 0)
+		(at 342.9 114.3 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3086,6 +3086,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -3151,7 +3153,7 @@
 	)
 	(text "R < 1k for high brightness on sunny field day"
 		(exclude_from_sim no)
-		(at 326.39 149.86 0)
+		(at 346.71 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3200,6 +3202,17 @@
 			)
 		)
 		(uuid "f435a546-65d9-4529-88d6-3a7db15a8e7f")
+	)
+	(text "Add TVS on UART2"
+		(exclude_from_sim no)
+		(at 292.862 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9028d76-d17e-4bcb-b360-f0cb0bcbdb9a")
 	)
 	(junction
 		(at 166.37 59.69)
@@ -3412,7 +3425,7 @@
 		(uuid "e30a4097-d02d-4492-b5f4-938365883d68")
 	)
 	(junction
-		(at 344.17 121.92)
+		(at 364.49 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4866717-714c-4619-81b3-65545128b342")
@@ -3436,7 +3449,7 @@
 		(uuid "f4173b69-a424-48ff-a421-d0eeaa34b6bc")
 	)
 	(junction
-		(at 344.17 132.08)
+		(at 364.49 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6e1b7ae-d59e-4989-90c1-430632e767e2")
@@ -3503,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 132.08) (xy 339.09 132.08)
+			(xy 364.49 133.35) (xy 359.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 142.24) (xy 344.17 132.08)
+			(xy 364.49 143.51) (xy 364.49 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3663,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 121.92) (xy 344.17 121.92)
+			(xy 359.41 123.19) (xy 364.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3773,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 142.24) (xy 344.17 142.24)
+			(xy 359.41 143.51) (xy 364.49 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 132.08) (xy 314.96 132.08)
+			(xy 351.79 133.35) (xy 335.28 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3893,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 123.19) (xy 327.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e60fc5-6dd5-45dc-8eb0-b33544562f61")
+	)
+	(wire
+		(pts
 			(xy 153.67 69.85) (xy 166.37 69.85)
 		)
 		(stroke
@@ -3900,16 +3923,6 @@
 			(type default)
 		)
 		(uuid "349f7596-8ef5-4437-9c88-3c2121decbeb")
-	)
-	(wire
-		(pts
-			(xy 243.84 142.24) (xy 307.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a4bc39-cc9e-4aaf-898d-7a086ee8361e")
 	)
 	(wire
 		(pts
@@ -3973,7 +3986,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 121.92) (xy 344.17 132.08)
+			(xy 364.49 123.19) (xy 364.49 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4453,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 133.35) (xy 327.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984577a1-13f6-44f9-9b08-f71f70436ccc")
+	)
+	(wire
+		(pts
 			(xy 78.74 138.43) (xy 91.44 138.43)
 		)
 		(stroke
@@ -4833,7 +4856,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 119.38) (xy 344.17 121.92)
+			(xy 364.49 120.65) (xy 364.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 121.92) (xy 314.96 121.92)
+			(xy 351.79 123.19) (xy 335.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5110,16 +5133,6 @@
 			(type default)
 		)
 		(uuid "e1761356-5a9c-47da-9166-22a542e98351")
-	)
-	(wire
-		(pts
-			(xy 243.84 132.08) (xy 307.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b3660c-a298-4e24-90f4-0225215218e4")
 	)
 	(wire
 		(pts
@@ -5323,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 142.24) (xy 314.96 142.24)
+			(xy 351.79 143.51) (xy 335.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5383,6 +5396,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 143.51) (xy 327.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea84408-f890-462f-9e0c-6404203f1d6f")
+	)
+	(wire
+		(pts
 			(xy 34.29 130.81) (xy 38.1 130.81)
 		)
 		(stroke
@@ -5390,16 +5413,6 @@
 			(type default)
 		)
 		(uuid "fee76247-6d54-4655-accb-c9ec18632fb0")
-	)
-	(wire
-		(pts
-			(xy 243.84 121.92) (xy 307.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3c85aa-ed55-47cd-9ce9-81e06cb424c5")
 	)
 	(image
 		(at 516.89 140.97)
@@ -7042,7 +7055,7 @@
 		(uuid "041bf4d5-8e6c-49ad-8aae-16169e5ac652")
 	)
 	(label "Cube2_LED_R"
-		(at 328.93 142.24 180)
+		(at 349.25 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7062,7 +7075,7 @@
 		(uuid "0c9bb986-5e19-49f4-95f6-e4d5fbdd430d")
 	)
 	(label "Cube0_LED_R"
-		(at 328.93 121.92 180)
+		(at 349.25 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,7 +7145,7 @@
 		(uuid "38eb30ae-f9ed-4519-b5c1-29b692deff2a")
 	)
 	(label "Cube0_LED"
-		(at 284.48 121.92 0)
+		(at 243.84 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7211,6 +7224,16 @@
 		)
 		(uuid "66f76ddc-fa40-4d1e-8f15-56962ee80ebd")
 	)
+	(label "Cube1_LED"
+		(at 325.12 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68c75627-7aac-4f15-98c8-82b297a1f72b")
+	)
 	(label "QSPI_SCLK"
 		(at 176.53 143.51 180)
 		(effects
@@ -7232,7 +7255,7 @@
 		(uuid "75d7c6b5-f146-487b-aed1-e343172ba0b6")
 	)
 	(label "Cube2_LED"
-		(at 284.48 142.24 0)
+		(at 243.84 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7282,7 +7305,7 @@
 		(uuid "8e3600ce-8eb8-4088-ad70-1a9ac5bc0139")
 	)
 	(label "Cube1_LED"
-		(at 284.48 132.08 0)
+		(at 243.84 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7311,6 +7334,16 @@
 		)
 		(uuid "9e792709-018f-4e6f-ae2c-55b42c63c2c0")
 	)
+	(label "Cube2_LED"
+		(at 325.12 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f6d34ab-2545-4961-b972-be228875186e")
+	)
 	(label "QSPI_SD3"
 		(at 91.44 138.43 180)
 		(effects
@@ -7322,7 +7355,7 @@
 		(uuid "a8f59465-cdeb-4ebf-8a2e-45d3e5e1d76b")
 	)
 	(label "Cube1_LED_R"
-		(at 328.93 132.08 180)
+		(at 349.25 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7361,6 +7394,16 @@
 		)
 		(uuid "be341aac-541d-4795-a39d-8de03c708cd9")
 	)
+	(label "RUN"
+		(at 180.34 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d48008d0-ab9c-471a-9258-1597a9243fc4")
+	)
 	(label "QSPI_SD0"
 		(at 91.44 128.27 180)
 		(effects
@@ -7370,6 +7413,16 @@
 			(justify right bottom)
 		)
 		(uuid "d598ac7d-c639-4d26-932d-e059911a4814")
+	)
+	(label "Cube0_LED"
+		(at 325.12 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0a9eb50-e7a8-46d2-bfcb-e06a6b87f5fc")
 	)
 	(global_label "USB_D+"
 		(shape input)
@@ -7806,7 +7859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 132.08 270)
+		(at 355.6 133.35 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7815,7 +7868,7 @@
 		(dnp no)
 		(uuid "031b0ecc-1671-4bb9-ac7f-73e5193a5fc6")
 		(property "Reference" "R27"
-			(at 335.28 129.794 90)
+			(at 355.6 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +7876,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 335.28 134.62 90)
+			(at 355.6 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 335.28 133.858 90)
+			(at 355.6 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +7893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 132.08 0)
+			(at 355.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7902,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 132.08 0)
+			(at 355.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +7911,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +7920,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +7929,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7938,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7947,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7956,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +7965,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +7974,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7983,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 335.28 132.08 90)
+			(at 355.6 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +8016,7 @@
 		(dnp no)
 		(uuid "054e7e2f-42a3-41f0-8fe4-87f683c1c4a9")
 		(property "Reference" "R21"
-			(at 253.746 95.758 0)
+			(at 251.968 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,7 +10842,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 311.15 142.24 0)
+		(at 331.47 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10797,15 +10850,15 @@
 		(dnp no)
 		(uuid "6c024bdd-d27d-4b9f-90bb-97360c5a606e")
 		(property "Reference" "D13"
-			(at 310.642 139.7 0)
+			(at 330.962 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 310.642 146.05 0)
+		(property "Value" "KT-0805G"
+			(at 330.962 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +10866,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +10875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10884,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10893,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +10902,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10911,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +10920,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +10929,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10938,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +10947,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10903,7 +10956,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,7 +10965,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10921,7 +10974,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 311.15 142.24 0)
+			(at 331.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,7 +10999,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 121.92 270)
+		(at 355.6 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10955,7 +11008,7 @@
 		(dnp no)
 		(uuid "6ce7b26e-3cf6-47ed-89fc-eb9aceebb535")
 		(property "Reference" "R26"
-			(at 335.28 119.634 90)
+			(at 355.6 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +11016,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 335.28 124.46 90)
+			(at 355.6 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,7 +11024,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 335.28 123.698 90)
+			(at 355.6 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +11033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 121.92 0)
+			(at 355.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,7 +11042,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 121.92 0)
+			(at 355.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11051,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +11060,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11069,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11078,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11087,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11096,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11105,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11114,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11123,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 335.28 121.92 90)
+			(at 355.6 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11302,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 344.17 119.38 0)
+		(at 364.49 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11258,7 +11311,7 @@
 		(fields_autoplaced yes)
 		(uuid "71486190-0f7f-4831-ad3a-c4b023850eb1")
 		(property "Reference" "#PWR064"
-			(at 344.17 123.19 0)
+			(at 364.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11320,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 344.17 114.3 0)
+			(at 364.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +11328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 119.38 0)
+			(at 364.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 119.38 0)
+			(at 364.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +11346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 344.17 119.38 0)
+			(at 364.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +11553,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_RUN"
+		(property "Value" "SW_Push"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -11508,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -11648,7 +11701,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 142.24 270)
+		(at 355.6 143.51 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11657,7 +11710,7 @@
 		(dnp no)
 		(uuid "75645867-32fe-4602-a564-cdb8e2b71089")
 		(property "Reference" "R28"
-			(at 335.28 139.954 90)
+			(at 355.6 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11718,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 335.28 144.78 90)
+			(at 355.6 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 335.28 144.018 90)
+			(at 355.6 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 142.24 0)
+			(at 355.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +11744,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 142.24 0)
+			(at 355.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11753,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +11762,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11771,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11780,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11789,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11798,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +11807,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11763,7 +11816,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +11825,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 335.28 142.24 90)
+			(at 355.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12955,7 +13008,7 @@
 		(dnp no)
 		(uuid "93bb241f-df17-47c7-ae02-47b284a04a19")
 		(property "Reference" "R25"
-			(at 265.684 95.758 0)
+			(at 267.462 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13216,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 311.15 121.92 0)
+		(at 331.47 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13171,15 +13224,15 @@
 		(dnp no)
 		(uuid "993acccc-7e9a-4304-a994-de4387f49d7c")
 		(property "Reference" "D11"
-			(at 310.642 119.38 0)
+			(at 330.962 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 310.642 125.73 0)
+		(property "Value" "KT-0805G"
+			(at 330.962 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13240,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +13249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13205,7 +13258,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,7 +13267,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13223,7 +13276,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,7 +13285,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,7 +13294,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,7 +13303,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,7 +13312,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,7 +13321,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13277,7 +13330,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,7 +13339,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,7 +13348,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 311.15 121.92 0)
+			(at 331.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_QSPI"
+		(property "Value" "SW_Push"
 			(at 146.05 137.1599 90)
 			(effects
 				(font
@@ -13485,7 +13538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -13860,7 +13913,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 311.15 132.08 0)
+		(at 331.47 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13868,15 +13921,15 @@
 		(dnp no)
 		(uuid "aa4b0eb3-a451-45a7-ba2c-37fd8c3f7e49")
 		(property "Reference" "D12"
-			(at 310.642 129.54 0)
+			(at 330.962 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 310.642 135.89 0)
+		(property "Value" "KT-0805G"
+			(at 330.962 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,7 +13937,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13893,7 +13946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,7 +13955,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13911,7 +13964,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +13973,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +13982,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +13991,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +14000,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +14009,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14018,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +14027,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +14036,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +14045,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 311.15 132.08 0)
+			(at 331.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
