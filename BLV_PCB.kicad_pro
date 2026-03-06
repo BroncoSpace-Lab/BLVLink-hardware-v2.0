@@ -38,17 +38,17 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.4,
-          "width": 2.4
+          "height": 1.0,
+          "width": 1.0
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|195500000|57400000|94ddff0d-4617-47ba-bf1e-fe1485b353cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|211500000|112600000|1608861c-7ebe-447b-b4f1-cd6ca53d4ab5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|211500000|49200000|c05f20f5-3916-4139-a67d-6b2a7813b673|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,7 +152,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -191,6 +204,7 @@
         0.15,
         0.2,
         0.3,
+        0.35052,
         0.5,
         1.0
       ],
@@ -510,7 +524,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 2, 9)",
+      "+BATT": "rgb(193, 3, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -519,8 +536,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Gerber/",
+      "pos_files": "Fabrication/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -530,7 +547,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Fabrication\\BLV_PCB_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -546,21 +563,33 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -579,12 +608,6 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -664,6 +687,12 @@
           "label": "Description_1",
           "name": "Description_1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS Part",
+          "name": "LSCS Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -671,7 +700,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -733,10 +762,6 @@
     [
       "2ac26712-adbd-4e92-84f1-3c660d93b184",
       "Power"
-    ],
-    [
-      "569bcdde-8867-46bc-886b-57a220d8386a",
-      "Sensors"
     ],
     [
       "de366454-9ffb-4c10-a457-4cc50a7266a1",
