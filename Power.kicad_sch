@@ -5485,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 214.63 111.76 0)
 			(effects
 				(font
@@ -8268,7 +8268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -8996,7 +8996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 132.08 132.08 0)
 			(effects
 				(font
