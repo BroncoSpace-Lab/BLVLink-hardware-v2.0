@@ -26,10 +26,14 @@ Sh.5 - RF:
 Other:
 - Update some Basic JLC BOM
 
+v1.0.2 - Post-Manufacture fix
+- ground via the flash
+- 
+
 
 To do:
 - Add ESD on UARTs
 - Break out SPI / I2C bus
-
-v1.0.2 - Post-Manufacture fix
-- 
+- Add new QR Code or smth
+- Battery Charger circuit
+- Temperature / Humidity / Pressure sensor
