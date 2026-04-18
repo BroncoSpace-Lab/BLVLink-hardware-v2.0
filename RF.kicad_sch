@@ -7,7 +7,7 @@
 	(title_block
 		(title "RF Module")
 		(date "2026-02-27")
-		(rev "v1.0.2")
+		(rev "v2.0")
 		(company "Bronco STAR - BLV")
 		(comment 1 "Rev. A - Replaced with E22-400M33S and associated components")
 	)
@@ -834,7 +834,7 @@
 		)
 		(uuid "476ed4a3-f2e1-4aa9-aaf8-7a5dae96a771")
 	)
-	(text "EBYTE Module Note:\n- TX Current max 1300mA"
+	(text "E32-400M30S Module Note:\n- TX Current max 650mA"
 		(exclude_from_sim no)
 		(at 114.046 122.174 0)
 		(effects
@@ -844,16 +844,6 @@
 			(justify left)
 		)
 		(uuid "9f334f48-4950-4f7c-9cf0-d12a1be56131")
-	)
-	(text "what are we doing with TXEN, RXEN, BUSY?"
-		(exclude_from_sim no)
-		(at 181.61 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cd670696-e91f-401d-9029-abe35712a1d0")
 	)
 	(junction
 		(at 135.89 83.82)

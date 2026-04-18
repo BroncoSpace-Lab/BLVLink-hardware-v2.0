@@ -7,7 +7,7 @@
 	(title_block
 		(title "Microcontroller RP2350A")
 		(date "2026-03-05")
-		(rev "v1.0.2")
+		(rev "v2.0")
 		(company "Bronco STAR - BLV")
 	)
 	(lib_symbols
