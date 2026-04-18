@@ -3163,7 +3163,7 @@
 	)
 	(text "Series Resistor to limit current in case of misconnect\n"
 		(exclude_from_sim no)
-		(at 294.132 105.156 0)
+		(at 284.988 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7512,7 +7512,7 @@
 		)
 		(uuid "30ae4737-c2f7-4064-8534-a6e9d9b266b6")
 	)
-	(hierarchical_label "SPI1_CS1"
+	(hierarchical_label "SPI1_CS1_GNSS"
 		(shape output)
 		(at 247.65 149.86 0)
 		(effects
@@ -7644,7 +7644,7 @@
 		)
 		(uuid "c085d4a7-5e84-46f6-acf0-f85ea7b20775")
 	)
-	(hierarchical_label "SPI1_CS0"
+	(hierarchical_label "SPI1_CS0_SDCard"
 		(shape output)
 		(at 247.65 144.78 0)
 		(effects
