@@ -3071,7 +3071,7 @@
 	)
 	(text "PROBABLY NEED TO BREAKOUT MORE PINS JUST IN CASE\nBREAK OUT SPI"
 		(exclude_from_sim no)
-		(at 262.128 193.04 0)
+		(at 286.258 181.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,9 +3080,9 @@
 		)
 		(uuid "1c8e9d07-9690-4a61-a4b7-6772defa1c72")
 	)
-	(text "CS0 = SD_CARD\nCS1 = GNSS"
+	(text "SPI bus 1:\n- CS0 = SD_CARD\n- CS1 = GNSS"
 		(exclude_from_sim no)
-		(at 266.7 147.828 0)
+		(at 268.478 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3140,6 +3140,19 @@
 		)
 		(uuid "8e1ee2eb-384f-4904-8d61-bdb81f8b08e0")
 	)
+	(text "I2C bus 0:\n- 0x40:	INA260		Power Monitor\n- 0x??:	MCP73833	Li-Ion Charger"
+		(exclude_from_sim no)
+		(at 264.414 192.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b1a87306-9435-4f0f-8ac0-d4fd531bfcc4")
+	)
 	(text "Make sure these R are close to RP2350\n"
 		(exclude_from_sim no)
 		(at 265.684 85.09 0)
@@ -3151,7 +3164,7 @@
 		)
 		(uuid "b617dcda-3528-4c13-a1da-6801344f7449")
 	)
-	(text "R < 1k for high brightness on sunny field day"
+	(text "high brightness for sunny field day"
 		(exclude_from_sim no)
 		(at 346.71 151.13 0)
 		(effects
@@ -3483,10 +3496,6 @@
 		(uuid "214ea05a-ed37-471e-86b0-d5c8fc54eac9")
 	)
 	(no_connect
-		(at 243.84 190.5)
-		(uuid "68578ad1-805e-4123-a033-12fdd67cb12f")
-	)
-	(no_connect
 		(at 243.84 187.96)
 		(uuid "8633597e-969a-43b1-9976-47551f2fb016")
 	)
@@ -3505,10 +3514,6 @@
 	(no_connect
 		(at 243.84 124.46)
 		(uuid "b6f176b5-cae6-459c-bf24-3a8dc52b7c8f")
-	)
-	(no_connect
-		(at 243.84 193.04)
-		(uuid "badcfd1c-b70d-406a-adfa-fbc9d783b3d6")
 	)
 	(no_connect
 		(at 19.05 121.92)
@@ -4356,6 +4361,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 193.04) (xy 243.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb66faa-818a-4452-9603-b5f5dd4717cc")
+	)
+	(wire
+		(pts
 			(xy 262.89 129.54) (xy 265.43 129.54)
 		)
 		(stroke
@@ -4843,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "c57a4681-bb89-421f-8ee9-d190fe975144")
+	)
+	(wire
+		(pts
+			(xy 247.65 190.5) (xy 243.84 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69f21cb-583a-4f6e-8353-3e9ce49ca854")
 	)
 	(wire
 		(pts
@@ -7589,6 +7614,28 @@
 		)
 		(uuid "5541b7a6-4f13-400e-86c0-f3d548d4c02d")
 	)
+	(hierarchical_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 247.65 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f93a155-f429-450a-bfe7-de4afc1bc68a")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape bidirectional)
+		(at 247.65 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b0cb9d8-a756-45af-944b-7db8c4ff21b3")
+	)
 	(hierarchical_label "CUBE_UART0_RX"
 		(shape input)
 		(at 265.43 119.38 0)
@@ -7875,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 355.6 135.89 90)
 			(effects
 				(font
@@ -11015,7 +11062,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 355.6 125.73 90)
 			(effects
 				(font
@@ -11717,7 +11764,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 355.6 146.05 90)
 			(effects
 				(font

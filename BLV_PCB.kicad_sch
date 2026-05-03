@@ -4096,7 +4096,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 33.02)
+		(at 218.44 113.03)
 		(size 33.02 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4112,7 +4112,7 @@
 		)
 		(uuid "2ac26712-adbd-4e92-84f1-3c660d93b184")
 		(property "Sheetname" "Power"
-			(at 148.59 32.3084 0)
+			(at 218.44 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 148.59 56.4646 0)
+			(at 218.44 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,11 +4130,31 @@
 			)
 		)
 		(property "Field2" ""
-			(at 148.59 33.02 0)
+			(at 218.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "I2C0_SCL" bidirectional
+			(at 218.44 123.19 180)
+			(uuid "3d5dd131-00ca-4f8a-b28d-c765e751025f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SDA" bidirectional
+			(at 218.44 120.65 180)
+			(uuid "ec1057d2-6e0c-42a0-b717-d74a5257737e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4369,6 +4389,26 @@
 		(pin "RF_IRQ" output
 			(at 191.77 86.36 0)
 			(uuid "f70b5d27-92bc-48c8-9c78-cbefffa2987d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" bidirectional
+			(at 191.77 123.19 0)
+			(uuid "bff6c72f-d989-4bba-996c-a0ba7f9c9ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" bidirectional
+			(at 191.77 120.65 0)
+			(uuid "2a6ee15d-cabc-41d3-a7e1-b5b6ce659cd0")
 			(effects
 				(font
 					(size 1.27 1.27)
