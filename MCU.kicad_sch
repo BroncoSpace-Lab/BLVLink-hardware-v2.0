@@ -3522,16 +3522,16 @@
 		(uuid "8f86b4c5-5bca-4d99-a9d8-595599a284d0")
 	)
 	(no_connect
-		(at 243.84 180.34)
-		(uuid "9a4d36b7-e6d4-4b48-a866-0745f005294e")
-	)
-	(no_connect
 		(at 243.84 157.48)
 		(uuid "afef543b-3718-4ffe-b50a-e712a72ce6c4")
 	)
 	(no_connect
 		(at 243.84 124.46)
 		(uuid "b6f176b5-cae6-459c-bf24-3a8dc52b7c8f")
+	)
+	(no_connect
+		(at 243.84 180.34)
+		(uuid "c6efe920-333a-4cc5-8858-cc8acc3c0e41")
 	)
 	(no_connect
 		(at 19.05 121.92)

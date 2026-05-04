@@ -2610,7 +2610,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Slide_Switch:K3-1391B-51"
+		(symbol "Slide_Switch:SS-12D10L9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2622,16 +2622,16 @@
 					)
 				)
 			)
-			(property "Value" "K3-1391B-51"
-				(at 0 -7.62 0)
+			(property "Value" "SS-12D10L9"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Slide_Switch:SW-TH_K3-1391B-51"
-				(at 0 -10.16 0)
+			(property "Footprint" "Slide_Switch:SW-TH_SS-12D10L9"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2639,8 +2639,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1391B-51_C92656.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_XKB-Enterprise-SS-12D10L9_C319011.html"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2657,26 +2657,26 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "韩国韩荣"
+			(property "Manufacturer" "XKB Connection(中国星坤)"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SS-12D10L9"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C319011"
 				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "K3-1391B-51"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C92656"
-				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2693,10 +2693,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "K3-1391B-51_0_1"
+			(symbol "SS-12D10L9_0_1"
 				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
+					(start -6.6 -3.05)
+					(end -3.56 -4.06)
 					(stroke
 						(width 0)
 						(type default)
@@ -2705,9 +2705,224 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -2.54 3.81)
-					(radius 0.38)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -5.33 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -4.83 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.05) (xy -5.08 0) (xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.52 -3.05)
+					(end 1.52 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.51) (xy 0.25 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.05) (xy -0.25 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.05) (xy 0.25 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -0.51) (xy 1.02 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 -0.51) (xy 1.78 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 -0.51) (xy 2.54 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 -0.51) (xy 3.3 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.56 -3.05)
+					(end 6.6 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.51) (xy 4.06 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.57 -0.51) (xy 4.83 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.83 -0.51) (xy 5.08 -0.51) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.64) (xy 5.08 -0.64)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.05) (xy 4.83 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.05) (xy 5.33 -1.78)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2717,7 +2932,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 2.54 0)
+					(at -5.08 2.54 270)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2735,7 +2950,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 0 0)
+					(at 0 2.54 270)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2753,7 +2968,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -2.54 0)
+					(at 5.08 2.54 270)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2763,24 +2978,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4459,8 +4656,8 @@
 		(uuid d9368801-3bac-4b80-912e-7963eaca1c0a)
 	)
 	(rectangle
-		(start 251.46 21.59)
-		(end 299.72 68.58)
+		(start 251.46 16.51)
+		(end 323.85 68.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4506,7 +4703,7 @@
 	)
 	(text "I2C address = 0x40"
 		(exclude_from_sim no)
-		(at 270.256 27.686 0)
+		(at 311.912 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4551,7 +4748,7 @@
 	)
 	(text "Power Monitor I/V/P"
 		(exclude_from_sim no)
-		(at 255.27 24.638 0)
+		(at 252.73 19.812 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4727,12 +4924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23e1a7a9-3bfd-4102-97d7-80a264ebe4ce")
-	)
-	(junction
-		(at 114.3 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25c7a7de-44cf-4318-9b91-d0fe4fef3cf2")
 	)
 	(junction
 		(at 182.88 31.75)
@@ -4975,6 +5166,12 @@
 		(uuid "e11b8837-4028-46df-978b-830355da862f")
 	)
 	(junction
+		(at 274.32 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ebcad2-8f5c-4abc-a4dd-ca4175e2ef4a")
+	)
+	(junction
 		(at 364.49 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5033,12 +5230,8 @@
 		(uuid "47d462e6-5321-46d0-a03f-77e4a0f6e659")
 	)
 	(no_connect
-		(at 240.03 35.56)
-		(uuid "755dbf87-84cf-422e-9033-19a91ba1a7bf")
-	)
-	(no_connect
-		(at 227.33 33.02)
-		(uuid "7719e0b8-b2f2-4222-a450-8f4d29341a63")
+		(at 284.48 44.45)
+		(uuid "77750e63-dfaa-4d07-bd3f-9e38ba027c18")
 	)
 	(no_connect
 		(at 25.4 69.85)
@@ -5047,6 +5240,10 @@
 	(no_connect
 		(at 48.26 62.23)
 		(uuid "dc763dae-0d39-4d21-a701-4fecbf771170")
+	)
+	(no_connect
+		(at 124.46 113.03)
+		(uuid "df30621d-9e89-453c-a9d0-c30e65485e6d")
 	)
 	(wire
 		(pts
@@ -5210,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 157.48) (xy 138.43 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb409fa-321a-48aa-9ec6-7778891c1842")
-	)
-	(wire
-		(pts
 			(xy 182.88 102.87) (xy 182.88 104.14)
 		)
 		(stroke
@@ -5280,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 38.1) (xy 227.33 38.1)
+			(xy 224.79 40.64) (xy 227.33 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 38.1) (xy 274.32 39.37)
+			(xy 274.32 27.94) (xy 274.32 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5527,6 +5714,16 @@
 			(type default)
 		)
 		(uuid "389329cf-a5d8-4c7d-8ca1-4bbfc9ee7b7b")
+	)
+	(wire
+		(pts
+			(xy 274.32 29.21) (xy 287.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39da86ef-37ba-4eb7-869a-5eb87129786d")
 	)
 	(wire
 		(pts
@@ -6047,6 +6244,16 @@
 			(type default)
 		)
 		(uuid "7420f63a-8330-4e2e-bc30-1f9ee66aa86e")
+	)
+	(wire
+		(pts
+			(xy 274.32 29.21) (xy 274.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e6d413-372d-4c0b-ac81-75a22edc1c20")
 	)
 	(wire
 		(pts
@@ -6580,16 +6787,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 157.48) (xy 146.05 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7bb6b0-95d4-419c-896e-6042e3d54d4f")
-	)
-	(wire
-		(pts
 			(xy 50.8 49.53) (xy 49.53 49.53)
 		)
 		(stroke
@@ -6627,26 +6824,6 @@
 			(type default)
 		)
 		(uuid "bd7c7851-eea4-4884-b5e5-0635cf94ccbc")
-	)
-	(wire
-		(pts
-			(xy 114.3 148.59) (xy 114.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becc30d2-6ed8-46e4-a11b-a661e9acbe59")
-	)
-	(wire
-		(pts
-			(xy 118.11 157.48) (xy 114.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e2815f-f918-4200-9ceb-67d94788ccec")
 	)
 	(wire
 		(pts
@@ -7040,7 +7217,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 44.45) (xy 224.79 38.1)
+			(xy 224.79 44.45) (xy 224.79 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7148,7 +7325,7 @@
 		)
 		(uuid "05c841b1-2c6d-4ea6-917c-99b490baf8c2")
 	)
-	(label "Monitor_in"
+	(label "IN+"
 		(at 264.16 44.45 180)
 		(effects
 			(font
@@ -7207,16 +7384,6 @@
 			(justify left bottom)
 		)
 		(uuid "43de5a09-91bd-4070-a7c9-d7ab1bc6cdd7")
-	)
-	(label "R_PG"
-		(at 137.16 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "458ddce8-d821-4f3e-b189-db4467289cab")
 	)
 	(label "USB1_CC2"
 		(at 48.26 39.37 0)
@@ -7278,16 +7445,6 @@
 		)
 		(uuid "691669e3-cec0-4b51-9045-eb3e6e3d8720")
 	)
-	(label "~{PG}"
-		(at 147.32 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70d86f93-1e40-4d70-a305-009e4b1ffb09")
-	)
 	(label "Dout"
 		(at 73.66 106.68 0)
 		(effects
@@ -7297,16 +7454,6 @@
 			(justify left bottom)
 		)
 		(uuid "798b6901-ec80-484b-82bf-3940fc0ff19d")
-	)
-	(label "~{PG}"
-		(at 124.46 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7cfcea77-52f1-4cbf-a034-be110d0b02f7")
 	)
 	(label "Cout"
 		(at 73.66 101.6 0)
@@ -7318,7 +7465,7 @@
 		)
 		(uuid "8c418a5d-60b5-486d-806c-b43ed2fa5411")
 	)
-	(label "FB"
+	(label "5V_FB"
 		(at 325.12 127 0)
 		(effects
 			(font
@@ -7328,7 +7475,7 @@
 		)
 		(uuid "8dbf864d-ab8a-493c-8f12-dc9ca1166a84")
 	)
-	(label "SW"
+	(label "5V_SW"
 		(at 325.12 109.22 0)
 		(effects
 			(font
@@ -7398,7 +7545,7 @@
 		)
 		(uuid "d5a4b852-5f2d-496f-a927-3a2e97af6b07")
 	)
-	(label "Monitor_out"
+	(label "IN-"
 		(at 264.16 54.61 180)
 		(effects
 			(font
@@ -8168,6 +8315,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Slide_Switch:SS-12D10L9")
+		(at 229.87 35.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237151b7-d873-44b8-b1e4-ded9df871da8")
+		(property "Reference" "SW1"
+			(at 234.95 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS-12D10L9"
+			(at 234.95 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Slide_Switch:SW-TH_SS-12D10L9"
+			(at 234.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_XKB-Enterprise-SS-12D10L9_C319011.html"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 240.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS-12D10L9"
+			(at 242.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C319011"
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ff256c-8ba3-4169-9f1b-187226a79bd4")
+		)
+		(pin "2"
+			(uuid "f0a382df-0517-444b-bf47-a6cc5355d8ad")
+		)
+		(pin "3"
+			(uuid "7252bf5d-c534-45d6-a044-b08600b61e4a")
+		)
+		(instances
+			(project ""
+				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:BQ297xy")
 		(at 63.5 104.14 0)
 		(unit 1)
@@ -8392,82 +8640,6 @@
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 121.92 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e54f157-6554-49c2-beff-5d73d06fcf83")
-		(property "Reference" "D33"
-			(at 121.92 154.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 121.92 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beeec0d0-0205-43f0-88bd-590f76883642")
-		)
-		(pin "2"
-			(uuid "28e36f52-f7e5-4e0e-81c1-4df73e415aa4")
-		)
-		(instances
-			(project "BLV_PCB"
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
-					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -10909,7 +11081,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KT-0805Y"
 			(at 121.92 142.748 0)
 			(effects
 				(font
@@ -11346,7 +11518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.08 196.088 90)
 			(effects
 				(font
@@ -11739,41 +11911,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Slide_Switch:K3-1391B-51")
-		(at 233.68 35.56 0)
+		(lib_id "Device:C")
+		(at 287.02 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9637c206-f6bc-49c0-b920-12beec8d26b6")
-		(property "Reference" "SW31"
-			(at 233.68 28.956 0)
+		(fields_autoplaced yes)
+		(uuid "977299cf-4d2a-4723-8936-4a2f0299ce71")
+		(property "Reference" "C46"
+			(at 290.83 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "K3-1391B-51"
-			(at 233.68 42.164 0)
+		(property "Value" "100n"
+			(at 290.83 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Slide_Switch:SW-TH_K3-1391B-51"
-			(at 233.68 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1391B-51_C92656.html"
-			(at 233.68 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 287.9852 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,8 +11947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 233.68 35.56 0)
+		(property "Datasheet" "~"
+			(at 287.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,49 +11956,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "韩国韩荣"
-			(at 233.68 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 287.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "K3-1391B-51"
-			(at 233.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C92656"
-			(at 233.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c90195c7-a26b-4c85-96d3-7f67ed8f60dc")
 		)
 		(pin "1"
-			(uuid "d6bb4cdf-f7f4-4b93-906b-b64c8f3df164")
+			(uuid "10e4dce6-08ac-410a-a4e2-9042f08783fd")
 		)
-		(pin "4"
-			(uuid "a781adf6-5331-4fa7-9997-26e8b9729537")
-		)
-		(pin "3"
-			(uuid "cf43de52-0eb7-44af-a0a5-76ee86667e62")
+		(pin "2"
+			(uuid "0af28faf-5535-45f8-b448-a5af71cb5f3f")
 		)
 		(instances
-			(project ""
+			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
-					(reference "SW31")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -12057,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 142.24 151.638 90)
 			(effects
 				(font
@@ -12202,6 +12344,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 287.02 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae712e44-a1d6-41fb-b5b0-9fa6fb8cf4ae")
+		(property "Reference" "#PWR07"
+			(at 287.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71ad363c-5a5f-4278-8841-448c3d4caa53")
+		)
+		(instances
+			(project "BLV_PCB"
+				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 107.95 0)
 		(mirror y)
@@ -12338,73 +12545,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b229dbce-29cd-4b4e-9c85-9cab3f177471")
-		(property "Reference" "R37"
-			(at 142.24 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 142.24 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 142.24 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7c75801-a8e0-4fa3-b6da-932257c32e81")
-		)
-		(pin "1"
-			(uuid "5a757971-84e3-4b6b-b4f8-073f29d041f3")
-		)
-		(instances
-			(project "BLV_PCB"
-				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/2ac26712-adbd-4e92-84f1-3c660d93b184"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 142.24 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12420,7 +12560,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 142.24 142.748 90)
 			(effects
 				(font
@@ -13491,7 +13631,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 386.08 116.84 90)
 			(effects
 				(font
@@ -13499,7 +13639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.08 116.078 90)
 			(effects
 				(font
@@ -13624,7 +13764,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 274.32 38.1 0)
+		(at 274.32 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13633,7 +13773,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6095502-a21b-433b-892e-0352d6751580")
 		(property "Reference" "#PWR048"
-			(at 274.32 41.91 0)
+			(at 274.32 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +13782,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 274.32 33.02 0)
+			(at 274.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 38.1 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 38.1 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 274.32 38.1 0)
+			(at 274.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14597,7 +14737,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KT-0805G"
 			(at 121.92 151.638 0)
 			(effects
 				(font
