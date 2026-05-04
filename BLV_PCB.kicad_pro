@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -555,7 +555,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 30,
+    "annotate_start_num": 70,
     "bom_export_filename": "Fabrication\\BLV_PCB_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -779,6 +779,10 @@
     [
       "e5b94b9f-016b-443f-970f-ae0598cc0fac",
       "GNSS & MicroSD"
+    ],
+    [
+      "081c8104-6bb5-483c-bc58-fae32d883c8b",
+      "sensors"
     ]
   ],
   "text_variables": {}

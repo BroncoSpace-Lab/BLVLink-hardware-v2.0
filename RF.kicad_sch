@@ -1492,6 +1492,16 @@
 		)
 		(uuid "f0a99d25-354e-4c03-ac7f-822d27cda3ab")
 	)
+	(label "LoRa_ANT"
+		(at 113.03 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbf0086b-8a33-4b9f-8407-9f4aa10f18d2")
+	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 102.87 99.06 180)
@@ -1589,7 +1599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13753306-292b-462b-b7e1-2d13a2df071f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR091"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -1639,7 +1649,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR066")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f99e15e-66ed-4868-b1c2-568a0bbd8f0b")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR090"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -1704,7 +1714,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR069")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d308c5-e5fd-43bf-a3f1-2af0b650fca2")
-		(property "Reference" "U51"
+		(property "Reference" "U39"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -1940,7 +1950,7 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "U51")
+					(reference "U39")
 					(unit 1)
 				)
 			)
@@ -1956,7 +1966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d62372-d2f4-4235-9a73-37dc95dc9bcd")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR092"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -2006,7 +2016,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR054")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -2020,9 +2030,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "985845fb-c97c-41d3-93fd-54b4bb09ec8b")
-		(property "Reference" "J?"
+		(property "Reference" "J40"
 			(at 93.218 109.22 0)
 			(effects
 				(font
@@ -2038,7 +2048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -2074,7 +2084,7 @@
 		(instances
 			(project ""
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "J?")
+					(reference "J40")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1abfea7-19ab-4dac-9b06-0b064b1d5631")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR089"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -2140,7 +2150,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR065")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2155,7 +2165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5ac89de-09fd-4521-b054-893d0974927a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR088"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -2205,7 +2215,7 @@
 		(instances
 			(project "BLV_PCB"
 				(path "/e98ed281-6a46-49b2-ab41-e3d95fdf6973/de366454-9ffb-4c10-a457-4cc50a7266a1"
-					(reference "#PWR068")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
