@@ -6282,7 +6282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n X7R"
+		(property "Value" "100n"
 			(at 168.91 71.1199 0)
 			(effects
 				(font
