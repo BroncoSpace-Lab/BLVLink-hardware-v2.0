@@ -3,4 +3,6 @@
   (lib (name "WIRELM-SMD_E22-400M30S")(type "KiCad")(uri "${KIPRJMOD}/Components/E22-400M33S/WIRELM-SMD_E22-400M30S.pretty")(options "")(descr ""))
   (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/Components/MCU_RaspberryPi_RP2350/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/Components/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "TPS61236")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS61236.pretty")(options "")(descr ""))
+  (lib (name "Slide_Switch")(type "KiCad")(uri "${KIPRJMOD}/libs/Slide_Switch.pretty")(options "")(descr ""))
 )

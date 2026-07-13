@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/Components/E22-400M33S/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS61236")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS61236.kicad_sym")(options "")(descr ""))
+  (lib (name "Slide_Switch")(type "KiCad")(uri "${KIPRJMOD}/libs/Slide_Switch.kicad_sym")(options "")(descr ""))
 )
